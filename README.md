@@ -1,3 +1,1 @@
-# Pet_Projects
-
-## Customer Analytics
+# Customer Analytics
