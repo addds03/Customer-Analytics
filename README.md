@@ -27,7 +27,7 @@
   1. Component 1 - Career Focused
   2. Component 2 - Education & Lifestyle
   3. Component 3 - Experience
-  4. Component 4 - Housing
+  4. Component 4 - Big City 
 
 * Based on the output, the four segments were named as follows:
   1. Career-Focused
@@ -35,7 +35,7 @@
   3. Well off
   4. Fewer Opportunities
 
-![Screenshot 2021-05-06 at 5 54 55 PM](https://user-images.githubusercontent.com/39771193/117370286-2d19f200-ae94-11eb-9dae-1561bbfc5b59.png)
+![Screenshot 2021-05-06 at 5 59 04 PM](https://user-images.githubusercontent.com/39771193/117370678-c21ceb00-ae94-11eb-99f8-b423e1988629.png)
 
 
 ## Purchase Analytics 
