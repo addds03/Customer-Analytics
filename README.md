@@ -1,9 +1,19 @@
 # Customer Analytics
 
-* Segmented customers using a combination of Principal Component Analysis (4 components) and K-mean Clustering (4 segments).
-* A descriptive analysis on the number of purchases, brand choice, and revenue generated per segment.
-* Price Elasticity for Purchase Probability, Brand Choice (own and cross-brand), Purchase Quantity.
-* Modeled the elasticities for each price point.
+* Data fragmented into 4 Segments using a combination of Principal Component Analysis (4 Components) and K-Means Clustering.
+  1. Career-focused - Young group of high-income and well-qualified people.
+  2. Well-off - Mid-Age wealthy group in a big city.
+  3. Standard - Average Population. (Middle Class)
+  4. Few opportunities - Customers from small cities with mediocre income and not highly qualified.   
+* A Descriptive Analysis of the Number of purchases, Brand choice, and Revenue generated per segment.
+* Price Elasticities (Modeled the elasticities for each price point starting 0.5 to 3.5, for 300 values.)
+  * Purchase Probability - 
+    * Customers from Well-off & Career-Focused segments are less elastic.
+    * Customers are less sensitive to price changes when there are promotions.
+    * Beneficial to have a higher original price and constant promotions.
+  * Brand Choice Probablity (self and cross-brand) - 
+  * Purchase Quantity -
+
 
 ## Code and Resources Used 
 **Python Version:** 3.7  
@@ -65,3 +75,20 @@ Insights:
   4. The last segment customers spend most of their money on Brand 2
 
 ## Predictive Analytics
+
+### Purchase Probability
+
+* Price points at which customers behaviour change from inelastic to elastic:
+    1. Mean Elasticity = 1.25
+    2. Career-Focused = 1.42
+    3. Standard = 1.21
+    4. Well-off = 1.46
+    5. Few-Opportunites = 1.26
+   
+![Screenshot 2021-05-06 at 9 27 55 PM](https://user-images.githubusercontent.com/39771193/117384881-ee933000-aeb1-11eb-9160-caa20cbfe295.png)
+
+* Price points at which customers behaviour change from inelastic to elastic
+  1. No Promotion = 1.27
+  2. Promotion = 1.46
+
+### Brand Choice
