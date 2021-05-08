@@ -11,7 +11,9 @@
     * Customers from Well-off & Career-Focused segments are less elastic.
     * Customers are less sensitive to price changes when there are promotions.
     * Beneficial to have a higher original price and constant promotions.
-  * Brand Choice Probablity (self and cross-brand) - 
+  * Brand Choice Probablity (cross-brand) - 
+    * Well-Off Segment --> Brand 4 decrease its price by 1%, Brand 5 can reduce by 0.75% and won't lose any customers.
+    * Career Focused Segment are loyal customers of Brand 5.
   * Purchase Quantity -
 
 
