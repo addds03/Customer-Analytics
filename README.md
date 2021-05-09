@@ -1,6 +1,6 @@
 # Customer Analytics
 
-* Data fragmented into 4 Segments using a combination of Principal Component Analysis (4 Components) and K-Means Clustering.
+* Data fragmented into 4 Segments using a combination of **Principal Component Analysis** (4 Components) and **K-Means Clustering**.
   1. Career-focused - Young group of high-income and well-qualified people.
   2. Well-off - Mid-Age wealthy group in a big city.
   3. Standard - Average Population. (Middle Class)
@@ -11,16 +11,17 @@
     * Customers from Well-off & Career-Focused segments are less elastic.
     * Customers are less sensitive to price changes when there are promotions.
     * Beneficial to have a higher original price and constant promotions.
-  * Brand Choice Probablity (cross-brand) - 
-    * Well-Off Segment --> Brand 4 decrease its price by 1%, Brand 5 can reduce by 0.75% and won't lose any customers.
-    * Career Focused Segment are loyal customers of Brand 5.
-  * Purchase Quantity -
+  * Brand Choice Probability (cross-brand) - 
+    * Brand 5 can reduce its price by 1% to gain its market share from Well-off segments.
+    * Career-Focused Segment are loyal customers of Brand 5.
+    * Brand 1 has to reduce its price by 2% to gain some market share from Brand 2 in the Standard and Few Opportunities Segments.
+* Building black-box algorithms to improve prediction accuracy to 90% **Future Work**
 
-
-## Code and Resources Used 
+## Resources
 **Python Version:** 3.7  
 **Packages:** pandas, numpy, sklearn, scipy  
 **Visualizations:** matplotlib, seaborn   
+**Techiques:** Linear Regression, Logistic Regression, K-Means Clustering, Principal Component Analysis
 **References:** https://learn.365datascience.com/
 
 ## Data Cleaning and Preprocessing
@@ -93,4 +94,14 @@ Insights:
   1. No Promotion = 1.27
   2. Promotion = 1.46
 
-### Brand Choice
+### Brand Choice Probability
+
+![Screenshot 2021-05-08 at 9 52 36 AM](https://user-images.githubusercontent.com/39771193/117541727-34034a80-afe3-11eb-94cf-c6ad51337ccc.png)
+
+![Screenshot 2021-05-08 at 9 52 50 AM](https://user-images.githubusercontent.com/39771193/117541731-382f6800-afe3-11eb-89ec-eb2e9b8c6191.png)
+
+
+### Purchase Quantity
+
+* No concrete findings in purchase behaviour for customers.
+* Might narrow is down to per brand/per segment for accurate behaviour of purchase quantity.
