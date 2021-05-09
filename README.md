@@ -32,9 +32,7 @@
 
 * Hierarchical clustering and K-means clustering with within-cluster sum squared (WCSS) used for determining the number of clusters.
 
-![Screenshot 2021-05-06 at 5 45 24 PM](https://user-images.githubusercontent.com/39771193/117369432-e7105e80-ae92-11eb-9d11-c09a92311232.png)
-
-![Screenshot 2021-05-06 at 5 45 35 PM](https://user-images.githubusercontent.com/39771193/117369426-e4156e00-ae92-11eb-83bf-4bfd623ae143.png)
+![Screenshot 2021-05-08 at 10 29 18 PM](https://user-images.githubusercontent.com/39771193/117558610-e4f1ff80-b04c-11eb-8785-09c1dadcfacd.png)
 
 * To improve segmentation and reduce the dimensionality, I used *Principal Component Analysis* to cover 90% variance. (4 components)
 * The focus of Components:
