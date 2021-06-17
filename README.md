@@ -15,7 +15,6 @@
     * Brand 5 can reduce its price by 1% to gain its market share from Well-off segments.
     * Career-Focused Segment are loyal customers of Brand 5.
     * Brand 1 has to reduce its price by 2% to gain some market share from Brand 2 in the Standard and Few Opportunities Segments.
-* Building black-box algorithms to improve prediction accuracy to 90% **Future Work**
 
 ## Resources
 **Python Version:** 3.7  
